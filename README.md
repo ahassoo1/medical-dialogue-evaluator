@@ -159,6 +159,8 @@ Watch the terminal logs as the evaluator discovers indicators, processes each di
 
 ---
 
+* **Comprehensive Indicators**: Comes with [15 pre-built evaluation indicators](./INDICATORS.md) covering clinical factuality, safety, communication, and professionalism.
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for details.
