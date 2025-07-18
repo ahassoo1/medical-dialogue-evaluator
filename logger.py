@@ -5,6 +5,7 @@ Configures and provides a centralized logger for the application.
 import logging
 import sys
 
+
 def get_logger(name="med_eval"):
     """Initializes a standardized logger."""
     logger = logging.getLogger(name)
@@ -18,5 +19,6 @@ def get_logger(name="med_eval"):
     logger.setLevel(logging.INFO)
     logger.propagate = False
     return logger
+
 
 logger = get_logger()
